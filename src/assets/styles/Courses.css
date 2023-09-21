@@ -1,0 +1,41 @@
+.course{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1.5em;
+}
+
+.col img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.col .crs-text{
+    padding: 1em;
+}
+
+.col h2{
+    color: #4070B4;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.heading h1{
+    color: #212529;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.read-more-new{
+    color:white;
+    padding: 0.5em 1em;
+    background-color: #022859; 
+    border-radius: 5px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.no-margin p{
+    margin:0;
+    padding: 0;
+}
+

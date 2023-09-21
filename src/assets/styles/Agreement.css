@@ -1,0 +1,74 @@
+:root {
+    --mainColor: #ff4848;
+    --mainColorLight: #ffdd48;
+    --secondaryColor: #44171b;
+    --textColor: #000000;
+    --blueMain:#00b4d8;
+    --blueDark:#03045e;
+    --blueLight:#90e0ef
+  }
+
+  
+
+  
+
+  
+  
+ 
+  .success-text{
+    color:var(--blueDark);
+    width: 100%;
+    background-color: var(--blueMain);
+    text-align: center;
+    margin: 15% auto;
+    padding: 10px;
+  }
+  
+
+  
+  label {
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+    flex: 0;
+  }
+  form {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .citizen {
+    width: 100%;
+  }
+  i {
+    font-weight: bold;
+  }
+  .note {
+    color: red;
+  }
+  h3 {
+    margin-top: 20px;
+  }
+  
+  .agg-input{
+    border: none;
+    background-color: rgb(129, 255, 156,0);
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    width: 400px;
+  }
+  .agg-input:focus,select:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .small-width-input{
+    width: 150px;
+  }
+  
+  
+  

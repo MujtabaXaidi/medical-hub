@@ -1,0 +1,96 @@
+/* Hero Container */
+.hero-container {
+    color: #022859; /* Set your text color */
+    background-image: url('../images/hero-image.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+}
+
+/* Hero Content */
+.hero-content {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+/* Hero Heading */
+.hero-heading {
+    font-size: 65px; /* Set your heading font size */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    font-family: 'Yantramanav', sans-serif;
+    color: white;
+    font-weight: bolder;
+    line-height: 1em;
+}
+
+/* Hero Subheading (Optional) */
+.hero-subheading {
+    font-size: 24px; /* Set your subheading font size */
+    margin-bottom: 30px; /* Adjust the margin as needed */
+    font-weight: lighter;
+    font-family: 'Yantramanav', sans-serif;
+    color: white;
+}
+
+/* Hero Button */
+.hero-button {
+    padding: 10px 30px;
+    background-color: #02B4D7;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    box-shadow:  0px 5px 10px #022859; /* Change the button color on hover */
+}
+
+/* Hero Image (Set dimensions as needed) */
+.hero-image {
+    max-width: 50%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+}
+
+.reveal {
+    opacity: 0;
+    animation: reveal 1s ease-in-out forwards;
+}
+
+@keyframes reveal {
+    to {
+        opacity: 1;
+    }
+}
+
+.float{
+    transform: scale(1);
+    animation: floating 2s ease-in alternate infinite;
+}
+
+@keyframes floating{
+    to{
+        transform: scale(1.05);
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20% 5%; /* Adjust the padding for smaller screens */
+        text-align: center;
+    }
+
+    .hero-heading {
+        font-size: 36px; /* Adjust heading font size for smaller screens */
+    }
+
+    .hero-subheading {
+        font-size: 1rem; /* Adjust subheading font size for smaller screens */
+    }
+}

@@ -1,0 +1,12 @@
+
+body {
+  margin: 0;
+  font-family: 'Yantramanav', sans-serif;
+  letter-spacing: 2px;
+}
+h3,h2,h1{
+  color: #022859;
+}
+p{
+  font-size: 16px;
+}

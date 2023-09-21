@@ -1,0 +1,66 @@
+.btn-nav{
+    padding: 5px 30px;
+    background-color: #201E5A;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    display: flex;
+}
+.icon{
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+}
+.nav-area,#basic-nav-dropdown{
+    color: #201E5A;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+#basic-navbar-nav{
+    border-top: 1px solid #E3E3E3;
+    padding-top: 10px;
+}
+.logo{
+    height: 100px;
+}
+.upper-nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper-nav-icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.contact-info-block{
+    display: flex;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.contact-info-container{
+    display: flex;
+    height: 100%;
+}
+.upper-nav-icon-phone{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 1000px) {
+    .upper-nav{
+        flex-direction: column;
+    }
+    .contact-info-container{
+        flex-direction: column;
+    }
+    #basic-navbar-nav{
+        border: none;
+    }
+  }
